@@ -1,0 +1,146 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-image: linear-gradient(to top right, rgb(242, 235, 215) 50%, pink 50%);;
+}
+
+.bloque1{
+    width: 840px;
+    height:589px ;
+    background-color: yellow;
+    background-image: url(IMG_3901.HEIC);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.texto1{
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-left: 280px;
+    
+}
+
+.bloque2{
+    width: 840px;
+    height:780px ;
+    background-color: transparent   ;
+    
+}
+
+.caja{
+    height: 240px;
+    width: 260px;
+    background-color: transparent;
+    padding: 10px;
+    float: left;
+    opacity:%;
+    
+    
+}
+
+
+.imagen{
+    height: 200px;
+    width: 260px;
+    background-color: red;
+    background-image: url(IMG_4444.HEIC);
+    background-size:cover;
+
+}
+
+.imagen:hover{
+    animation: girar 2s infinite linear;
+}
+
+@keyframes girar {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    
+
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-top:0px;
+    background-color: transparent   ;
+    background-image: url(fons.jpg);
+    height: 40px;
+    
+        
+}
+
+
+.imagen1{
+    background-image: url(IMG_2560.jpg);
+    
+}
+
+.imagen2{
+    background-image: url(IMG_3901.HEIC);
+}
+
+.imagen3{
+    background-image: url(IMG_4258.HEIC);
+}
+
+.imagen4{
+    background-image: url(IMG_4443.HEIC);
+}
+
+.imagen5{
+    background-image: url(IMG_4444.HEIC);
+}
+
+.imagen6{
+    background-image: url(IMG_4822.HEIC);
+}
+
+.imagen7{
+    background-image: url(IMG_4939.HEIC);
+}
+
+.imagen8{
+    background-image: url(IMG_2560.jpg);
+}
+
+.imagen9{
+    background-image: url(IMG_3901.HEIC);
+}
+
+.imagen, :hover{
+    
+
+}
+
+@keyframes rotate360{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.bloque3{
+    width:840px;
+    height:220px ;
+    background-color;
+}
+
+.hola{
+    width: 220px; ;
+    height: 220px ;
+    background-color: transparent;
+    background-image: url(logo_carsandfilms.png);
+    background-repeat: no-repeat;
+    align-items: center;
+    
+}
